@@ -78,7 +78,7 @@ void loop()
   oled.println(" %");
   oled.display(); // Draw to the screen
   //CADA 30 SEGUNDOS CONEXIÓN A WIFI, CONEXIÓN AL SERVIDOR, ENVÍO Y DESCONEXIÓN
-  if (millis() > ultimo_envio + 20000) {//Sólo envío datos a thingspeak cada 30 segundos
+  if (millis() > ultimo_envio + 600000) {//Sólo envío datos a thingspeak cada 30 segundos
     while (WiFi.status() != WL_CONNECTED) {
       texto = "CONEC W";
       escribir(texto);
