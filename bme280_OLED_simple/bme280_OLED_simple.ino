@@ -15,10 +15,10 @@
 /////////////////////////////////
 // DATOS DEL CENTRO EDUCATIVO  //
 /////////////////////////////////
-char ssid[32] = "CRIF-ACACIAS";
-char password[32] = "vistaalegre";
-String proveedor = "OE_Nuestra_Sra_Providencia";
-String key_proveedor = "ca9ba1d256e44e3f78886bee7f129d216772585097a72d69577e474083546613";
+char ssid[32] = "SSID-DE-CENTRO";
+char password[32] = "CONTRASEÑA-WIFI";
+String proveedor = "PROVEEDOR-DE-CENTRO";
+String key_proveedor = "KEY-PROVEDOR-DE-CENTRO";
 const char* server = "www.smartcitything.es";
 
 ////////////////////////////////////////////////
