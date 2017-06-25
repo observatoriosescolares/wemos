@@ -2,6 +2,7 @@
 
 //ArduinoJson
 //Adafruit_Sensors
+//SSD1306 (Versión de Daniel Eichhorn; no la de Adafruit)
 
 //FS (FileSystem)
 //ESP8266WiFi
@@ -31,7 +32,7 @@ const char* CONFIG_FILE = "/config.json";
 //y de ¿14? en las ordenadas
 //Es posible que en el futuro (https://github.com/squix78/esp8266-oled-ssd1306/issues/73) haya que cambiar esto
 //#include <Wire.h>  // Only needed for Arduino 1.6.5 and earlier
-#include "SSD1306.h" // alias for `#include "SSD1306Wire.h"`
+#include <SSD1306.h> // alias for `#include "SSD1306Wire.h"`
 #define OLED_HORIZONTAL_OFFSET  32
 #define OLED_VERTICAL_OFFSET  14
 #include <ArduinoJson.h> //https://github.com/bblanchon/ArduinoJson
