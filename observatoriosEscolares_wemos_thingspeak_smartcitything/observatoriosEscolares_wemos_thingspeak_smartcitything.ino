@@ -125,16 +125,17 @@ void setup() {
   // The extra parameters to be configured (can be either global or just in the setup)
   // After connecting, parameter.getValue() will get you the configured value
   // // Format: <ID> <Placeholder text> <default value> <length> <custom HTML> <label placement>
-  char customhtml[24] = "type=\"checkbox\"";
+  char customhtml[34] = "type=\"checkbox\"";
   if (use_thingspeak) {
     strcat(customhtml, " checked");
   }
   WiFiManagerParameter custom_use_thingspeak("Use_ThingSpeak", "Use ThingSpeak", "T", 2, customhtml, WFM_LABEL_AFTER);
   WiFiManagerParameter custom_thingspeak_apiKey("ThingSpeak", "ThingSpeak Write API Key", thingspeak_ApiKey, 17);//Parece que necesita un carácter más en la longitud 16-->17
+  char customhtml2[34] = "type=\"checkbox\"";
   if (use_smartcitything) {
-    strcat(customhtml, " checked");
+    strcat(customhtml2, " checked");
   }
-  WiFiManagerParameter custom_use_smartcitything("Use_SmartCityThing", "Use SmartCityThing", "T", 2, customhtml, WFM_LABEL_AFTER);
+  WiFiManagerParameter custom_use_smartcitything("Use_SmartCityThing", "Use SmartCityThing", "T", 2, customhtml2, WFM_LABEL_AFTER);
   WiFiManagerParameter custom_smartcitything_proveedor("SmartCityThing_Proveedor", "SmartCityThing Proveedor", smartcitything_proveedor, 33);
   WiFiManagerParameter custom_smartcitything_key("SmartCityThing_Key", "SmartCityThing Key", smartcitything_key, 65);
 
