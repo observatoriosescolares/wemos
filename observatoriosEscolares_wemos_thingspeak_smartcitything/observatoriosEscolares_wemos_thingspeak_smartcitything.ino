@@ -140,6 +140,7 @@ void setup() {
 
 
   WiFiManager wifiManager;
+  wifiManager.setDebugOutput(true);
 
   //add all your parameters here
   wifiManager.addParameter(&custom_use_thingspeak);
@@ -208,6 +209,7 @@ void loop() {
         }
       } else {
         intentos_conexion = 30;
+        mensaje="       ";
         if (use_thingspeak) {
           enviar_a_thingspeak();
         }
