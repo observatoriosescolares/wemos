@@ -1,7 +1,7 @@
 //Se requieren las siguientes librerías
 
 //ArduinoJson
-//Adafruit_Sensors
+//Adafruit_Sensors (Adafruit Unified Sensor)
 //SSD1306 (Versión de Daniel Eichhorn; no la de Adafruit)
 
 //FS (FileSystem)
