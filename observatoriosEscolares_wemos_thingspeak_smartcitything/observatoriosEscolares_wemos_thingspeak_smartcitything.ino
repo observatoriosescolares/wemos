@@ -1,3 +1,13 @@
+//Se requieren las siguientes librerías
+
+//ArduinoJson
+//Adafruit_Sensors
+
+//FS (FileSystem)
+//ESP8266WiFi
+//DNSServer
+//ESP8266WebServer
+
 //Configure los siguientes parámetros
 #define PORTAL_CAUTIVO_SSID     "Observatorios Escolares"
 #define PORTAL_CAUTIVO_PSK      "cambie_esta_clave"
