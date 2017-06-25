@@ -141,7 +141,7 @@ void setup() {
 
 
   WiFiManager wifiManager;
-  wifiManager.setDebugOutput(true);
+  //wifiManager.setDebugOutput(false);
 
   //add all your parameters here
   wifiManager.addParameter(&custom_use_thingspeak);
@@ -289,7 +289,7 @@ bool readConfigFile() {
       Serial.println("JSON parseObject() failed");
       return false;
     }
-    json.printTo(Serial);
+    //json.printTo(Serial);
 
     // Parse all config file parameters, override
     // local config variables with parsed values
