@@ -65,7 +65,7 @@ char thingspeak_ApiKey[17];
 char smartcitything_proveedor[33] ;
 char smartcitything_key[65];
 const char* serverThingSpeak = "api.thingspeak.com";
-const char* serverSmartCityThing = "www.smartcitything.es";
+const char* serverSmartCityThing = "iot.educa.madrid.org";
 unsigned long ultimo_envio = 0;
 float t, p, a, h;
 String mensaje = "";
