@@ -1,4 +1,5 @@
- #include <ESP8266WiFi.h>
+//Conexión a una WiFi 
+#include <ESP8266WiFi.h>
 
 //SSID of your network
 char ssid[] = "Nombre de la wifi"; //SSID of your Wi-Fi router
