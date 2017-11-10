@@ -10,10 +10,10 @@
 /////////////////////////////////
 // DATOS DEL CENTRO EDUCATIVO  //
 /////////////////////////////////
-char ssid[32] = "SSID DE LA WIFI";
-char password[32] = "CONTRASEÑA DE LA WIFI";
-String proveedor = "IDENTIFICADOR DEL PROVEEDOR";
-String key_proveedor = "KEY DEL PROVEEOR";
+char ssid[32] = "JAZZTEL_bPKq";
+char password[32] = "yqwhataebfum";
+String proveedor = "OE_San_Diego_San_Vicente";
+String key_proveedor = "11fd83452f5d340a48c4cc38bb016b19f61f8de04cbc01e84f2bbf0eaad4b392";
 const char* server = "iot.educa.madrid.org";
 
 ////////////////////////////////////////////////
