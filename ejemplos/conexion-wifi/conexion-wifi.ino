@@ -1,8 +1,8 @@
  #include <ESP8266WiFi.h>
 
 //SSID of your network
-char ssid[] = "JAZZTEL_bPKq"; //SSID of your Wi-Fi router
-char pass[] = "yqwhataebfum"; //Password of your Wi-Fi router
+char ssid[] = "xxxxxx"; //SSID of your Wi-Fi router
+char pass[] = "xxxxxx"; //Password of your Wi-Fi router
 
 void setup()
 {
